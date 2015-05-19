@@ -1433,8 +1433,17 @@
   display: table-row;
   height: inherit;
 }
+.openerp .oe_view_manager .oe_view_manager_view_list {
+  height: inherit;
+  overflow: auto;
+}
+.openerp .oe_view_manager .oe_view_manager_view_form {
+  height: inherit;
+  overflow: auto;
+}
 .openerp .oe_view_manager .oe_view_manager_view_kanban:not(:empty) {
   height: inherit;
+  overflow: auto;
 }
 .openerp .oe_view_manager table.oe_view_manager_header {
   border-collapse: separate;

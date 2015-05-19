@@ -8,7 +8,7 @@
             model="product.product"
             name="product.pricelist"
             rml="product/report/product_pricelist.rml"
-            menu="False"
+            menu="True"
             auto="False"/>
     </data>
 </openerp>
