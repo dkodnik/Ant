@@ -8,6 +8,7 @@
         <ean13 type="field" name="ean13"/>
         <currency type="field" name="company_id.currency_id.name"/>
         <company type="field" name="company_id.name"/>
+        <company_registry type="field" name="company_id.company_registry"/>
         <uom type="field" name="uom_id.name"/>
     </lot-line>
 </lots>
